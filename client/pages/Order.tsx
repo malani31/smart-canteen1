@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { ShoppingCart, Utensils } from "lucide-react";
 import { FoodItem, FoodItemCard } from "@/components/FoodItemCard";
-import { useCart } from "@/lib/Cart";
+import { useCart } from "@/lib/cart";
 
 const Order = () => {
   const items: FoodItem[] = useMemo(

@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { useCart } from "@/lib/Cart";
+import { useCart } from "@/lib/cart";
 import PreOrderForm from "@/components/PreOrderForm";
 
 export default function Cart() {

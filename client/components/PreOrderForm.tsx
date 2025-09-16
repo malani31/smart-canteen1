@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useCart } from "@/lib/Cart";
+import { useCart } from "@/lib/cart";
 
 export default function PreOrderForm() {
   const { totalPrice, clear } = useCart();
